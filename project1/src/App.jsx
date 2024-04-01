@@ -12,8 +12,9 @@ function App() {
     <div >
       <Navbar/>
       <Body/>
-      <Footer/>
+      
       <AboutMe/>
+      <Footer/>
     </div>
   )
 }
