@@ -1,22 +1,27 @@
-import Navbar from './components/Navbar';
-import Body from './components/Body';
-import Footer from './components/Footer';
-import AboutMe from './components/AboutMe';
+import React from "react";
+import Calculator from "./components/Calculator";
+import Home from "./components/Home";
 
-
-
-import './components/index.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import "./components/index.css";
 function App() {
-
   return (
-    <div >
-      <Navbar/>
-      <Body/>
-      
-      <AboutMe/>
-      <Footer/>
-    </div>
-  )
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route  path="/calculator" element={<Calculator />} />
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,10 +1,22 @@
 import React from 'react';
+import Navbar from './/Navbar';
+
+import Footer from './Footer';
+import CalculatorForm from './CalculatorForm';
+
+
 import './index.css';
 function Calculator(){
     return(
-        <h1>
-        This is Calculator
-      </h1>
+      <div>
+      <Navbar/>
+      <div id="formContainer">
+        <CalculatorForm/>
+      </div>
+      
+      
+      <Footer/>
+  </div>
     );
 }
 export default Calculator;

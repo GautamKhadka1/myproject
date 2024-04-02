@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.css';
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
@@ -7,8 +9,8 @@ function Navbar() {
         <img class="logo" src='logo.png'></img>
         <nav>
             <ul class="nav_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Calculator</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/calculator">Calculator</Link></li>
             </ul>
         </nav>
     </div>

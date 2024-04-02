@@ -95,6 +95,59 @@ footer{
   display: inline-block;
   padding-left: 50px;
 }
+#formContainer{
+  height: 80%;
+  padding: 50px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  background-color: #015d90;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 790px;
+    display: flex;
+}
+#calculatorform{
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 500px;
+  height: 600px;
+  box-shadow: 5px 10px 20px  #171717 ;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 44%;
+  padding: 15px;
+  margin: 15px 1px 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  color: #171717;
+  
+}
+label{
+  color: #171717;
+  padding: 15px 107px 0px 15px;
+  margin: 5px;
+  display: inline-flex ;
+
+  
+}
+div h2{
+  color: #171717;
+  padding: 20px 0px 0px 20px;
+  
+  
+}
+div p{
+  color: #171717;
+  padding: 5px 0px 0px 20px;
+  font-weight: 500;
+
+}
+
 
 
 
