@@ -49,7 +49,6 @@ footer{
 
 }
 #nav_links li a:hover{
-    /* color:rgb(255, 226, 6); */
     font-weight: 700;
 }
 
@@ -90,6 +89,8 @@ footer{
 #aboutme{
   width: 80%;
   display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
 }
 #photo{
   
@@ -179,48 +180,6 @@ button{
   margin: 25px 0px 0px 0px;
 }
 
-
-
-
-
-  /* nav{
-    background-color: #e7e9eb;
-    margin: 0;
-    padding: 3px;
-  }
-  .logo1{
-    color: #242424;
-  }
-  ul{
-    text-align: right;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    
-  
-  }
-  li{
-    display: inline-block;
-    
-    
-  }
-  li a {
-    display: block;
-    padding: 10px 40px;
-    color: #242424;
-    text-decoration: inherit;
-  }
-  li a:hover {
-    background-color: #242424;
-    color: #fff;
-    padding: 10px 40px;
-  }
-  #logo1{
-    font-family: Impact, , 'Arial Narrow Bold', sans-serif;
-    text-align: left;
-    padding: 10px 0px 10px 15px;
-    font-size: x-large;
-  } */
   :root {
     font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
     line-height: 1.5;
