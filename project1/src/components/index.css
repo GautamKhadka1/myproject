@@ -21,41 +21,42 @@ footer{
 
 
   }
-  .top{
+  #top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px 10px 15px;
     background-color: #242424;
   }
-  .logo{
+  #logo{
     cursor: pointer;
     padding: 5px 0px 5px 50px;
   }
   
-  .nav_links li{
+  #nav_links li{
     display: inline-block;
     padding: 0px 20px;
     position: relative;
   }
-  .nav_links{
+  #nav_links{
     list-style: none;
     padding-right: 50px;
     
   }
-  .nav_links li a{
+  #nav_links li a{
     transition: all 0.5s ease 0s;
     color: #ffffff;
 
 }
-.nav_links li a:hover{
+#nav_links li a:hover{
     /* color:rgb(255, 226, 6); */
     font-weight: 700;
 }
 
 #bg{
     /* background-image: url(bg.jpg); */
-    background-color: #015d90;
+    /* background-color: #015d90; */
+    background-image: linear-gradient(to right, #015d90 , #00a6ff);
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     
@@ -70,6 +71,7 @@ footer{
     
     
 }
+
 #png{
     padding-right: 50px;
 }
@@ -102,9 +104,8 @@ footer{
   align-content: center;
   justify-content: center;
 
-  background-color: #015d90;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+  background-image: linear-gradient(to right, #015d90 , #00a6ff);
+  
     height: 790px;
     display: flex;
 }
@@ -112,8 +113,8 @@ footer{
   background-color: #ffffff;
   border-radius: 20px;
   width: 500px;
-  height: 600px;
-  box-shadow: 5px 10px 20px  #171717 ;
+  height: 550px;
+  box-shadow: 5px 10px 40px  #01304a ;
   justify-content: center;
   align-items: center;
 }
@@ -137,7 +138,7 @@ label{
 }
 div h2{
   color: #171717;
-  padding: 20px 0px 0px 20px;
+  padding: 40px 0px 0px 20px;
   
   
 }
@@ -146,6 +147,36 @@ div p{
   padding: 5px 0px 0px 20px;
   font-weight: 500;
 
+}
+select{
+  width: 92%;
+  padding: 15px;
+  margin: 15px 1px 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  color: #171717;
+  display: block;
+
+}
+button{
+  width: 92%;
+  padding: 15px;
+  margin: 30px 1px 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #02466b;
+  color: #fdfdfd;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+
+}
+#result{
+  text-align: center;
+  color: #090909;
+  font-size: 30px;
+  margin: 25px 0px 0px 0px;
 }
 
 
@@ -196,7 +227,7 @@ div p{
     font-weight: 400;
   
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 1);
     background-color: #242424;
   
     font-synthesis: none;

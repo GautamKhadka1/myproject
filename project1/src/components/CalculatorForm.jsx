@@ -28,13 +28,13 @@ const handleCalculate = () => {
   return (
     <div id="calculatorform">
       <h2>Calculator</h2>
-      <p>Enter your variables and select suitable </p>
+      <p>Enter variables and select desired operation. </p>
       <form id="cform">
-        <label for="x">
+        <label htmlFor="x">
           First Variable
           <br />
         </label>
-        <label for="y">
+        <label htmlFor="y">
           Second Variable
           <br />
         </label>
@@ -64,7 +64,7 @@ const handleCalculate = () => {
         </select>
       </form>
       <button onClick={handleCalculate}>Compute</button>
-        {result && <p>Result: {result}</p>}
+        {result && <p id="result">Result: {result}</p>}
     </div>
   );
 }
