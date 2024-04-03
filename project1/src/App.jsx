@@ -1,6 +1,6 @@
 import React from "react";
-import Calculator from "./components/Calculator";
-import Home from "./components/Home";
+import Calculator from "./pages/Calculator";
+import Home from "./pages/Home";
 
 import {
   BrowserRouter as Router,
@@ -15,8 +15,6 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-        </Routes>
-        <Routes>
           <Route  path="/calculator" element={<Calculator />} />
         </Routes>
       </Router>

@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './/Navbar';
-import Body from './Body';
-import Footer from './Footer';
-import AboutMe from './AboutMe';
-import './index.css';
+import Navbar from '../components/Navbar';
+import Body from '../components/Body';
+import Footer from '../components/Footer';
+import AboutMe from '../components/AboutMe';
+import '../components/index.css';
 
 function Home(){
     return(

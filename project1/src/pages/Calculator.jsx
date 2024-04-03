@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './/Navbar';
+import Navbar from '../components/Navbar';
 
-import Footer from './Footer';
-import CalculatorForm from './CalculatorForm';
+import Footer from '../components/Footer';
+import CalculatorForm from '../components/CalculatorForm';
 
 
-import './index.css';
+import '../components/index.css';
 function Calculator(){
     return(
       <div>
